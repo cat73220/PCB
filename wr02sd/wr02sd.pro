@@ -1,4 +1,4 @@
-update=2016年08月24日 15時07分16秒
+update=2016年08月25日 18時25分19秒
 version=1
 last_client=kicad
 [pcbnew]
@@ -20,11 +20,6 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
-[cvpcb]
-version=1
-NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=library
@@ -40,4 +35,9 @@ LibName8=cmos4000
 LibName9=adc-dac
 LibName10=memory
 LibName11=library/wr02sd
+[cvpcb]
+version=1
+NetIExt=net
+[general]
+version=1
 
