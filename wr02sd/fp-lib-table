@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name wroom02)(type KiCad)(uri ${KIPRJMOD}/library)(options "")(descr ""))
+  (lib (name library)(type KiCad)(uri /home/nabe/Documents/WR02SD/kicad/library)(options "")(descr ""))
 )
