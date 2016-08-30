@@ -42,7 +42,7 @@ U 1 1 57BD4D84
 P 1650 2350
 F 0 "P2" H 1850 2150 50  0000 C CNN
 F 1 "USB_A" H 1600 2550 50  0000 C CNN
-F 2 "Connect:USB_Micro-B" V 1600 2250 50  0001 C CNN
+F 2 "wroom02:uUSB_B_Receptacle" V 1600 2250 50  0001 C CNN
 F 3 "" V 1600 2250 50  0000 C CNN
 	1    1650 2350
 	0    -1   1    0   
@@ -50,12 +50,12 @@ $EndComp
 $Comp
 L GND #PWR01
 U 1 1 57BD53F5
-P 1950 2750
-F 0 "#PWR01" H 1950 2500 50  0001 C CNN
-F 1 "GND" H 1950 2600 50  0000 C CNN
-F 2 "" H 1950 2750 50  0000 C CNN
-F 3 "" H 1950 2750 50  0000 C CNN
-	1    1950 2750
+P 1550 2750
+F 0 "#PWR01" H 1550 2500 50  0001 C CNN
+F 1 "GND" H 1550 2600 50  0000 C CNN
+F 2 "" H 1550 2750 50  0000 C CNN
+F 3 "" H 1550 2750 50  0000 C CNN
+	1    1550 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -258,13 +258,13 @@ $EndComp
 $Comp
 L R_Small R9
 U 1 1 57BE3F5D
-P 7750 3750
-F 0 "R9" V 7650 3650 50  0000 L CNN
-F 1 "10K" V 7850 3700 50  0000 L CNN
-F 2 "Resistors_SMD:R_0201" H 7750 3750 50  0001 C CNN
-F 3 "" H 7750 3750 50  0000 C CNN
-	1    7750 3750
-	0    1    1    0   
+P 9550 1750
+F 0 "R9" V 9450 1650 50  0000 L CNN
+F 1 "10K" V 9650 1700 50  0000 L CNN
+F 2 "Resistors_SMD:R_0201" H 9550 1750 50  0001 C CNN
+F 3 "" H 9550 1750 50  0000 C CNN
+	1    9550 1750
+	1    0    0    -1  
 $EndComp
 $Comp
 L R_Small R7
@@ -414,8 +414,6 @@ Wire Wire Line
 Wire Wire Line
 	1950 1850 1950 2150
 Wire Wire Line
-	1950 2450 1950 2750
-Wire Wire Line
 	3500 1950 2850 1950
 Wire Wire Line
 	3500 2050 2850 2050
@@ -434,10 +432,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 2250 2300 2350
 Wire Wire Line
-	1550 2650 1550 2700
-Wire Wire Line
-	1550 2700 1950 2700
-Connection ~ 1950 2700
+	1550 2650 1550 2750
 Wire Wire Line
 	4850 1150 4850 1850
 Wire Wire Line
@@ -650,14 +645,12 @@ $EndComp
 Wire Wire Line
 	7100 3350 7100 3450
 Wire Wire Line
-	9550 2100 9550 3750
-Wire Wire Line
-	9550 3750 7850 3750
+	9550 1850 9550 3750
 Connection ~ 9550 2100
 Wire Wire Line
 	7100 3650 7100 3750
 Wire Wire Line
-	7550 3750 7650 3750
+	9550 3750 7550 3750
 $Comp
 L CONN_01X15 P1
 U 1 1 57BEA498
@@ -852,7 +845,7 @@ Text Label 2550 2350 0    60   ~ 0
 USB_D-
 Text Notes 6950 4450 0    50   ~ 0
 Matter NEEDED Attention\nOn every boot/reset/wakeup,\nGPIO15 MUST keep LOW, GPIO2 MUST keep HIGH,\nGPIO0 HIGH -> Run mode, LOW -> Flash mode.\nWhen you need to use the sleep mode, GPIO16 and RST shud be connected,\nand GPIO16 will output LOW to reset the system at the time of wakeup.
-Text Label 8000 3750 0    60   ~ 0
+Text Label 7650 3750 0    60   ~ 0
 nRST
 Text Label 6950 3050 1    60   ~ 0
 GPIO0
@@ -1139,4 +1132,18 @@ F 3 "" H 2150 4300 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1350 4900 1350 5050
+$Comp
+L VCC #PWR036
+U 1 1 57C5171C
+P 9550 1600
+F 0 "#PWR036" H 9550 1450 50  0001 C CNN
+F 1 "VCC" H 9550 1750 50  0000 C CNN
+F 2 "" H 9550 1600 50  0000 C CNN
+F 3 "" H 9550 1600 50  0000 C CNN
+	1    9550 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 1600 9550 1650
+NoConn ~ 1950 2450
 $EndSCHEMATC
