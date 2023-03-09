@@ -1,6 +1,6 @@
 (fp_lib_table
   (lib (name wroom02)(type KiCad)(uri ${KIPRJMOD}/library)(options "")(descr ""))
   (lib (name library)(type KiCad)(uri /home/nabe/Documents/WR02SD/kicad/library)(options "")(descr ""))
-  (lib (name openproject)(type KiCad)(uri /home/nabe/Documents/WR02SD/kicad/kicadlibrary)(options "")(descr ""))
+  (lib (name kicad_libraries)(type KiCad)(uri /home/nabe/Documents/WR02SD/kicad/kicad_libraries)(options "")(descr ""))
   (lib (name open-project)(type Legacy)(uri /home/nabe/Documents/WR02SD/kicad/kicadlibrary/open-project.mod)(options "")(descr ""))
 )

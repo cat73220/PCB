@@ -1,0 +1,275 @@
+Cmp-Mod V01 Created by PcbNew   date = 2016年09月01日 17時06分58秒
+
+BeginCmp
+TimeStamp = 57BE94FF
+Path = /57BD56B0
+Reference = Y1;
+ValeurCmp = 12MHz;
+IdModule  = Crystals:Crystal_HC49-U_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE9435
+Path = /57BEDE6A
+Reference = C7;
+ValeurCmp = 47u;
+IdModule  = Capacitors_SMD:C_1210;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE9423
+Path = /57BE631E
+Reference = C4;
+ValeurCmp = 100u;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeS_EIA-3216;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE9429
+Path = /57BEE7A1
+Reference = C5;
+ValeurCmp = 0.47u;
+IdModule  = Capacitors_SMD:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE942F
+Path = /57BE628F
+Reference = C6;
+ValeurCmp = 10u;
+IdModule  = Capacitors_SMD:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE943B
+Path = /57BE5DF1
+Reference = C8;
+ValeurCmp = 100u;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeS_EIA-3216;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE9441
+Path = /57BE4A77
+Reference = C9;
+ValeurCmp = 470;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE9447
+Path = /57BF11EB
+Reference = D1;
+ValeurCmp = IN4007/M7(DO-214AC);
+IdModule  = Diodes_SMD:DO-214AB;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE945A
+Path = /57BEA498
+Reference = P1;
+ValeurCmp = THT_Male_P_1x15;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x15;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE947C
+Path = /57BEA56A
+Reference = P3;
+ValeurCmp = THT_Male_P_1x15;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x15;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE9482
+Path = /57BF1039
+Reference = P4;
+ValeurCmp = POWER_5V;
+IdModule  = Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE9488
+Path = /57BEB0CD
+Reference = R1;
+ValeurCmp = 220K(1%);
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE948E
+Path = /57BEB13E
+Reference = R2;
+ValeurCmp = 100K(1%);
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE9494
+Path = /57BD65B5
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0201;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE949A
+Path = /57BE3E7F
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0201;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE94A0
+Path = /57BE4017
+Reference = R5;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0201;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE94A6
+Path = /57BE3FDC
+Reference = R6;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0201;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE94AC
+Path = /57BE3FA2
+Reference = R7;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0201;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE94B2
+Path = /57BE80AE
+Reference = R8;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0201;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE94B8
+Path = /57BE3F5D
+Reference = R9;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0201;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE94D8
+Path = /57BD431F
+Reference = U1;
+ValeurCmp = CH340G;
+IdModule  = Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE94E0
+Path = /57BEDDC7
+Reference = U2;
+ValeurCmp = LM3940IMP-3.3;
+IdModule  = TO_SOT_Packages_SMD:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE94F7
+Path = /57BD2AF0
+Reference = U3;
+ValeurCmp = ESP-13-WROOM-02;
+IdModule  = wroom02:ESP-13-WROOM-02;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE9807
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE981C
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE9826
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE982D
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BEAD56
+Path = /57BD4D84
+Reference = P2;
+ValeurCmp = USB_A;
+IdModule  = Connect:USB_Micro-B;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BF8B84
+Path = /57BF871D
+Reference = CON1;
+ValeurCmp = Micro_SD_Card;
+IdModule  = wroom02:MICROSD;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE94C4
+Path = /57BE7BAB
+Reference = SW2;
+ValeurCmp = Reset;
+IdModule  = Buttons_Switches_SMD:SW_SPST_EVQPE1;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE94BE
+Path = /57BE7B19
+Reference = SW1;
+ValeurCmp = Flash;
+IdModule  = Buttons_Switches_SMD:SW_SPST_EVQPE1;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE9411
+Path = /57BD616F
+Reference = C1;
+ValeurCmp = 22;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE9417
+Path = /57BD61DA
+Reference = C2;
+ValeurCmp = 22;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 57BE941D
+Path = /57BD60BD
+Reference = C3;
+ValeurCmp = 10u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+EndListe
